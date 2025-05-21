@@ -1,7 +1,6 @@
 import axios from "axios";
 
 import { createContext, useEffect, useRef, useState } from "react";
-import {assets} from '../assets/assets';
 
 export const PlayerContext = createContext();
 
