@@ -8,9 +8,6 @@ const DisplayHome = () => {
 
   const {songsData, albumsData} = useContext(PlayerContext)
 
-  console.log(songsData)
-  console.log(albumsData)
-
   return (
     <>
         <Navbar />

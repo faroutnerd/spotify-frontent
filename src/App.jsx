@@ -46,12 +46,12 @@ import { PlayerContext } from './context/PlayerContext'
 const App = () => {
   const { audioRef, track, songsData, albumsData } = useContext(PlayerContext);
   
-  useEffect(() => {
-    // Only try to access track.file if track exists
-    if (track) {
-      console.log(track.file);
-    }
-  }, [track]);
+  // useEffect(() => {
+  //   // Only try to access track.file if track exists
+  //   if (track) {
+  //     console.log(track.file);
+  //   }
+  // }, [track]);
 
   return (
     <div className="h-screen bg-black">

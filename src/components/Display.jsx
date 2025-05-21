@@ -22,8 +22,7 @@ const Display = () => {
       displayRef.current.style.background = `#121212)`;
     }
   });
-  console.log("album data arnab", albumsData.length)
-
+  
   return (
     <div
       ref={displayRef}
